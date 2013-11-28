@@ -1,0 +1,32 @@
+/ <!DOCTYPE html>
+/ <html>
+/ <head>
+/   <title>RailsParallax</title>
+/   <%= stylesheet_link_tag    "application", :media => "all" %>
+/   <%= javascript_include_tag "application" %>
+/   <%= csrf_meta_tags %>
+/ </head>
+/ <body>
+
+/ <%= yield %>
+
+/ </body>
+/ </html>
+doctype 5
+html
+  head
+    title RailsParallax
+    meta charset="utf-8"
+
+    = yield :pre_stylesheets
+    = stylesheet_link_tag 'application', media: 'all'
+    = yield :post_stylesheets
+
+    = csrf_meta_tags
+
+  body  
+    = yield
+
+    = yield :pre_javascripts
+    = javascript_include_tag 'application'
+    = yield :post_javascripts
