@@ -1,41 +1,220 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-#home {
-  background: url(one_red_strawberry.jpg) 50% 0 no-repeat fixed;
-  min-height: 1000px;
-  margin: 0 auto;
-  max-width: 1920px;
-  position: relative;
-
-  article {
-    color: white;
-    font-size: 30px;
-    height: 458px; 
-    position: absolute; 
-    text-align: center; 
-    top: 150px; 
-    width: 100%;
-  }
+body {
+  overflow-x: hidden;
 }
-
-#about {
-  background: url(red_grapefruit.jpg) 50% 0 repeat fixed;
-  min-height: 1000px;
+#home {
+  background: url(hd-wallpapers-nasa-experiment-space-earth-pictures-free.jpg) 50% 0 no-repeat fixed;
+  background-repeat: no-repeat;
+  height: 800px;
   margin: 0 auto;
-  width: 100%;
   max-width: 1920px;
   position: relative;
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 
+  p,
   article {
     color: white;
     font-size: 30px;
     height: 458px; 
     position: absolute; 
     text-align: center; 
-    top: 150px; 
+    top: 350px; 
+    width: 100%;
+  }
+
+  p {
+    top: 200px;
+  }
+}
+
+#about {
+  @extend #home;
+  background: url(space_station-HD.jpg) 50% 0 no-repeat fixed;
+  p,
+  article {
+    color: white;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
     width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#tillari {
+  @extend #home;
+  background: url(Cosmic_swirl_hd_wallpaper.jpg) 50% 0 no-repeat fixed;
+  background-color: black;
+  height: 400px;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: left;
+    margin-left: 30px;
+    top: 200px;
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#amboli {
+  @extend #home;
+  background: url(lunar_space_galaxy.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#five {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#five {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#six {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#seven {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#eight {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#nine {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
+  }
+}
+
+#ten {
+  @extend #home;
+  background: url(beautiful_space.jpg) 50% 0 no-repeat fixed;
+
+  p,
+  article {
+    color: red;
+    font-size: 30px;
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 350px; 
+    width: 100%; 
+  }
+  p {
+    top: 200px;
   }
 }
